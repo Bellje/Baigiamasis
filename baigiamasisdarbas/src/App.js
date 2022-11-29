@@ -27,7 +27,8 @@ const App = () => {
   return (
 		<div className='container-fluid movie-app'>
 			<div className='row d-flex align-items-center '>
-				<MovieListHeading heading='Movies' />
+				<MovieListHeading heading='Movies' />	
+					<div className='movieNav'> 	<MovieListHeading heading='online navigator' /></div>
 				<SearchBox searchValue={searchValue} setSearchValue={setSearchValue} />
 			</div>
 			<div className='row justify-content-center'>

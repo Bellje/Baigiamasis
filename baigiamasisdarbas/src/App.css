@@ -29,6 +29,14 @@ body {
 	opacity: 0;
 	bottom: 0;
 	font-size: 20px;
-	padding: 5px;
+	padding: 10px;
 	text-align: center;
+}
+.movieNav h1 {
+	font-style: italic;
+	font-size: 20px;
+	text-align: left;
+	font-family: monospace;
+	color: #6e6e6e;
+
 }
